@@ -1,0 +1,229 @@
+body {
+    font-family: serif;
+    margin: 0;
+    padding: 0;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color:#000000;
+}
+
+nav {
+    padding: 2px;
+    margin-top: 5px;
+    margin: 0px;
+    background-color: #051f04cb; /* fondo del menú */
+    }
+nav ul {
+    list-style-type: none; 
+}
+nav li {
+    display: inline; 
+}
+
+nav ul li a:hover {
+    background-color:  #1dc518cb; 
+    transform: scale(1.03);
+    color: #070505;
+}
+nav li {
+  display: inline-block;    
+  margin: 5px;  
+}
+
+nav li a {
+  display: block;     
+  padding: 10px 20px;
+  background-color:#051f04cb;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;    
+  transition: background-color 0.3s ease, transform 0.2s;
+}
+
+nav li a:hover {
+  color: white;
+  transform: scale(1.05); 
+}
+
+img {
+  width: 400px;
+  height: 350px;
+  object-fit: cover;
+
+}
+
+h2 {
+    font-family:serif;
+    margin: 0px;
+    padding: 1em;
+    background-color: #006400c2; 
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+/* PIE DE PÁGINA */ 
+footer {
+    background-color: rgba(5, 36, 1, 0.8);
+    color: white;
+    text-align: center;
+    padding: 1em;
+    margin-top: 0em;
+}
+.redes-sociales {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.redes-sociales a {
+  display: inline-block;
+  margin: 0 10px;
+  transition: transform 0.3s ease;
+}
+
+.redes-sociales img {
+  width: 50px; 
+  height: 50px;
+  object-fit: cover;
+}
+
+.redes-sociales a:hover {
+  transform: scale(1.2);
+}
+
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estructura general */
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family:serif;
+    background: #f3f5f9;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Menú */
+nav {
+    padding: 5px;
+    background-color: #051f04cb;
+}
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+nav li {
+    display: inline-block;
+    margin: 5px;
+}
+nav li a {
+    display: block;
+    padding: 10px 20px;
+    background-color: #051f04cb;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.2s;
+}
+nav li a:hover {
+    background-color: #1dc518cb;
+    transform: scale(1.05);
+}
+h1{
+  text-align: center;
+  width: 180px;
+  padding: 12px;
+  background-color: rgb(144, 231, 151);
+  border: 1px solid #074e07;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1);
+
+}
+
+
+form {
+  background: rgb(188, 236, 192);
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 400px;
+  width: 100%;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+.form-group {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  margin-bottom: 10px;
+}
+
+.form-group label {
+  width: 120px; 
+  text-align: left; 
+  font-weight: bold;
+}
+
+.campo {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #184609;
+  border-radius: 6px;
+ background-color: #a6e49e85;
+}
+
+.form-group.mensaje {
+  flex-direction: column; 
+  align-items: flex-start; 
+}
+
+.form-group.mensaje label {
+  width: auto;
+  margin-bottom: 5px;
+}
+
+.form-group.mensaje .campo {
+  width: 100%;
+  resize: vertical;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px;
+  width: 100%;
+  background: rgb(144, 231, 151);
+  border: 1px solid #074e07;
+  color: rgb(0, 0, 0);
+  border: 1px solid #074e07;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #13421f;
+  color: white;
+  border: 1px solid #a9e9a9;
+}
+
+body {
+  background-image: url('img/fondo.png');  
+  background-size: cover;              /* Escala la imagen para cubrir toda la pantalla */
+  background-repeat: no-repeat;      
+  background-position: center center;  
+  background-attachment: fixed;        /* Mantiene el fondo fijo al hacer scroll */
+  margin: 0;
+  padding: 0;
+
+}

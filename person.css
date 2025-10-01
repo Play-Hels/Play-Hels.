@@ -1,0 +1,141 @@
+body {
+  font-family:serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #e8f5e9, #e1f5fe); /* degradado verde-azul */
+  color: #1b1b1b;
+}
+
+
+.btn-arriba {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  color: rgb(119, 67, 19);
+  padding: 10px 15px;
+  border-radius: 50%;
+  font-size: 25px;
+  text-decoration: none;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.3);
+}
+.btn-arriba:hover {
+  background: #a1cc8e;
+  transform: scale(1.1);
+}
+
+
+nav {
+ background-color: rgba(5, 36, 1, 0.699);
+  padding: 10px;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+nav li {
+  display: inline-block;
+  margin: 0 8px;
+}
+nav li a {
+  display: block;
+  padding: 10px 20px;
+  background-color: #388e3c;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+nav li a:hover {
+  background-color: #81c784;
+  color: #1b1b1b;
+  transform: scale(1.05);
+}
+
+h1 {
+  padding: 1em;
+  margin: 0;
+  background-color: #2e7d32;
+  color: white;
+  text-align: center;
+}
+h2 {
+  margin: 40px auto;
+  padding: 1em;
+  max-width: 600px;
+  background-color: #81c784;
+  color: #1b1b1b;
+  border-radius: 8px;
+  text-align: center;
+}
+/* PIE DE PÁGINA */ 
+footer {
+    background-color: rgba(5, 36, 1, 0.8);
+    color: white;
+    text-align: center;
+    padding: 1em;
+    margin-top: 0em;
+}
+.redes-sociales {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.redes-sociales a {
+  display: inline-block;
+  margin: 0 10px;
+  transition: transform 0.3s ease;
+}
+
+.redes-sociales img {
+  width: 50px; 
+  height: 50px;
+  object-fit: cover;
+}
+
+.redes-sociales a:hover {
+  transform: scale(1.2);
+}
+
+    .botones {
+      display: flex;
+      justify-content: center;
+      gap: 60px;
+      margin-top: 50px;
+    }
+
+    .boton {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-decoration: none; /* Quita el subrayado */
+      background-color: #66a168b9;
+      color: white;
+      padding: 40px;
+      border-radius: 15px;
+      
+      transition: transform 0.3s, background-color 0.3s;
+    }
+
+    .boton img {
+      width: 300px;
+      height: 400px;
+      margin-bottom: 10px;
+    }
+
+    .boton:hover {
+      background-color: #45a049;
+      transform: scale(1.05);
+    }
+    
+ body {
+  background-image: url('img/fondo.png');  
+  background-size: cover;              /* Escala la imagen para cubrir toda la pantalla */
+  background-repeat: no-repeat;      
+  background-position: center center;  
+  background-attachment: fixed;        /* Mantiene el fondo fijo al hacer scroll */
+  margin: 0;
+  padding: 0;
+
+}

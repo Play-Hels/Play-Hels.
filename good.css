@@ -1,0 +1,174 @@
+body {
+    font-family:serif;
+    margin: 0;
+    padding: 0;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color:#ffffff;
+}
+  a {
+      text-decoration: none; /* Quita el subrayado */
+    }
+    
+body {
+  background-image: url('img/fondo.png');  
+  background-size: cover;              /* Escala la imagen para cubrir toda la pantalla */
+  background-repeat: no-repeat;      
+  background-position: center center;  
+  background-attachment: fixed;        /* Mantiene el fondo fijo al hacer scroll */
+  margin: 0;
+  padding: 0;
+
+}
+nav {
+    padding: 2px;
+    margin-top: 5px;
+    margin: 0px;
+    background-color: #051f04cb; /* fondo del menú */
+    }
+nav ul {
+    list-style-type: none; 
+}
+nav li {
+    display: inline; 
+}
+
+nav ul li a:hover {
+    background-color:  #1dc518cb; 
+    transform: scale(1.03);
+    color: #070505;
+}
+nav li {
+  display: inline-block;    
+  margin: 5px;  
+}
+
+nav li a {
+  display: block;     
+  padding: 10px 20px;
+  background-color:#051f04cb;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;    
+  transition: background-color 0.3s ease, transform 0.2s;
+}
+
+nav li a:hover {
+  color: white;
+  transform: scale(1.05); 
+}
+
+button {
+  bottom: 20px;
+  right: 20px;
+  color: rgb(119, 67, 19);
+  padding: 10px 15px;
+  border-radius: 50px;
+  font-size: 25px;
+  text-decoration: none;
+  box-shadow: 0 3px 6px rgba(65, 24, 1, 0.986);
+  background: #a1cc8e;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background: #6ba857;   /* color al pasar el mouse */
+  transform: scale(1.2); /* efecto de agrandado */
+  color: white;          /* cambia el color del texto */
+}
+h2, .cartel {
+    font-family: serif;
+    margin: 0px;
+    padding: 1em;
+    background-color: #006400c2; 
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+/* PIE DE PÁGINA */ 
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(5, 36, 1, 0.8);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.redes-sociales {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.redes-sociales a {
+  display: inline-block;
+  margin: 0 10px;
+  transition: transform 0.3s ease;
+}
+
+.redes-sociales img {
+  width: 50px; 
+  height: 50px;
+  object-fit: cover;
+}
+
+.redes-sociales a:hover {
+  transform: scale(1.2);
+}
+
+nav {
+    position: fixed; /* Fija el menú */
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #051f04cb;
+    padding: 2px;
+}
+  /* Cartel */
+   .cartel {
+    background-color: #68aa60;
+    padding: 20px;            /* Espacio interno */
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    width: 250px;             /* Ancho fijo del cartel */ 
+    text-align: center;       /* Centra el texto */
+    transform-origin: top left;
+    transform: rotate(-20deg);
+    animation: levantar 1.5s ease-out forwards;
+    animation-iteration-count: 1;
+}
+
+   body {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding-top: 100px;
+    font-family: Arial, sans-serif;
+  }
+
+  .contenedor {
+    position: relative;
+    display: inline-block;
+  }
+
+  /* Animación */
+  @keyframes levantar {
+    from { transform: rotate(-20deg); }
+    to { transform: rotate(0deg); }
+  }
+
+.imagen {
+    width: 150px; 
+    height: auto; 
+  width: 400px;
+  height: 350px;
+  object-fit: cover;
+  float: left;
+   margin-right: 10px;
+  margin-left: -25px;
+}
